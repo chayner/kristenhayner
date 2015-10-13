@@ -11,3 +11,62 @@ Tags: white
 Version: 1.0.0
 Template: milo
 */
+
+body #page-wrapper > header .menu > li > a {
+  padding: 70px 5px 51px 5px;
+  text-transform: none;
+}
+
+body #page-wrapper > header .menu li a {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body #home-top-copy .headline {
+  margin-bottom: 0;
+}
+
+body #home-top-copy .row p {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+body a.search-button {
+  margin-top: 13px;
+}
+
+header.header-sticky {
+  background: white;
+  z-index: 999;
+}
+
+#services-heading {
+  margin: 40px 0 0px;
+  padding: 40px 0 20px;
+  border-top: 2px solid #989088;
+}
+
+#num-services .row {
+  border-bottom: 2px solid #989088;
+  padding: 10px 0 20px;
+  margin: 10px 0 40px;
+}
+
+@media (min-width: 992px) {
+  header img.logo-desktop  {
+    max-width: 300px;
+  }
+}
+
+.page-content {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.page-content ul {
+  margin-left: 2em;
+}
+
+.page-content ul > li {
+  margin-bottom: 0.5em;
+}
